@@ -28,7 +28,6 @@ var mouseForm = function() {
         browser.wait(EC.visibilityOf(buttonMenu), 15000, 'Элемент подтверждающий авторизацию на страницу не найден :(');
         buttonMenu.click();
         browser.wait(EC.visibilityOf(buttonInputAlert), 15000, 'Элемент подтверждающий переход на страницу не найден :(');
-        browser.sleep(5000);
     };
 
     this.mouseMove = function () {
